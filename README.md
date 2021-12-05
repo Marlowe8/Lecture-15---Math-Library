@@ -12,3 +12,19 @@ int main(){
 
 	return 0;
 }
+
+**//You say hello, I say goodbye	**
+#include <iostream>
+using namespace std;
+void function() {
+	cout << "Welcome to my program" << endl;
+}
+void function1() {
+	cout << "End of program" << endl;
+}
+int main(){
+	function();
+	system("pause");
+	function1();
+	return 0;
+}
